@@ -1,5 +1,10 @@
+import { PlayerSelect } from "./player-select";
 function Player() {
-  return <h3>i am player</h3>;
+  return (
+    <div className="w-full">
+      <PlayerSelect></PlayerSelect>
+    </div>
+  );
 }
 
 export default Player;
